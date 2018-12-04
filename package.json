@@ -1,0 +1,19 @@
+{
+  "name": "E2Etest",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "NODE_ENV=test mocha -c --require @babel/register -R list -w --watch-extensions js 'test/**/*.js'",
+    "test": "mocha -c --require @babel/register"
+  },
+  "author": "mostlyfine",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "axios": "^0.18.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {}
+}

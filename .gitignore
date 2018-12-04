@@ -1,0 +1,4 @@
+*.swp
+.envrc
+config.json
+node_modules/
